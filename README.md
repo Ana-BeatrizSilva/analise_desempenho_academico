@@ -8,7 +8,7 @@
 ---
 ## Sobre o Projeto
 
-**Sistema de AvaliaçãoAcadêmica** é uma aplicação desenvolvida em Python para automatizar o cadastro de alunos, o cálculo de médias e a geração de relatórios acadêmicos.
+**Sistema de Avaliação Acadêmica** é uma aplicação desenvolvida em Python para automatizar o cadastro de alunos, o cálculo de médias e a geração de relatórios acadêmicos.
 
 O sistema permite registrar múltiplos alunos, armazenar suas notas, calcular automaticamente as médias finais e classificar cada estudante de acordo com seu desempenho acadêmico.
 
