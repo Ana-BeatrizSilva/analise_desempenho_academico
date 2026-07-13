@@ -1,15 +1,3 @@
-'''Programa deve:
-- 1. Perguntar quantos alunos serão cadastrados
-- 2. Para cada aluno: 
-* Ler nome
-* Ler 4 notas
-*  Calcular média
-* Definir situação
-* Salvar os dados
-3. Depois que todos forem cadastrados:
-* Gerar estatísticas da turma
-* Gerar a planilha
-* Gerar gráficos'''
 #Importações
 from openpyxl import Workbook
 from openpyxl.styles import Font
@@ -158,7 +146,7 @@ plt.show()
 
 #Gráfico de pizza
 situacoes = [aprovacao, recuperacao, reprovacao]
-labels = ["Aprovaçaõ", "Recuperação", "Rerpovação"]
+labels = ["Aprovaçaõ", "Recuperação", "Reprovação"]
 plt.figure()
 plt.pie(situacoes, labels=labels,autopct="%1.1f%%")
 plt.title("Situaçaõ da Turma")
